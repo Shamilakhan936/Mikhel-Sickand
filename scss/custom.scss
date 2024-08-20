@@ -522,9 +522,9 @@ footer {
   filter: brightness(100%);
 }
 .text-gradient {
-  color: #ff7a00;
   font-weight: bold;
-  background: linear-gradient(to right, #ff3d00, #ff9900);
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(to bottom, #ff3d00, #ff9900);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
