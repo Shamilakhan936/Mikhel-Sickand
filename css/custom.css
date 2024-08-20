@@ -19297,7 +19297,8 @@ nav .navbar-nav .dropdown-menu a:hover {
   transition: all 0.4s ease;
 }
 
-.navbar-items {
+.navbar-items,
+.work {
   font-family: "Roboto", sans-serif;
 }
 
