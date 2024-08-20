@@ -289,11 +289,14 @@ body {
 footer {
   background-color: #0d131b;
   color: #f9fafb;
+  margin-top: 0px;
 
-  @media (min-width: 768px) {
+  @media (max-width: 768px) {
     height: 65vh;
   }
-
+  @media (max-width: 370px) {
+    margin-top: 20px !important;
+  }
   a {
     text-decoration: none;
 
@@ -455,7 +458,8 @@ footer {
 }
 
 .no-wrap {
-  font-size: 16px;
+  font-size: 15px;
+  margin-bottom: 10px;
 
   @media (min-width: 768px) {
     font-size: 40px;
