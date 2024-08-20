@@ -528,7 +528,8 @@ footer {
 .text-gradient {
   font-weight: bold;
   font-family: "Roboto", sans-serif;
-  background: linear-gradient(to bottom, #ff3d00, #ff9900);
+  // background: linear-gradient(to bottom, #ff3d00, #ff9900);
+  background: linear-gradient(-142deg, #ff3d00 0%, #ff9900 100%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
