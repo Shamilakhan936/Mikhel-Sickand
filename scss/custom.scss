@@ -16,6 +16,12 @@
 // Custom Font
 @import url(https://db.onlinewebfonts.com/c/cc85ce960da51cc62e20c2f03411d473?family=Blackpast+DEMO);
 
+// font roboto
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+// font-family: 'Plus Jakarta Sans', sans-serif;
+
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap");
+
 // Custom Styles
 
 // Body Styles
@@ -41,11 +47,11 @@ body {
   .middle-background {
     height: 1400px;
     z-index: 0;
-    width: 50%;
+    width: 18%;
     top: -10%;
     border-radius: 50%;
     background: radial-gradient(circle, #ff3c0031 0%, #ff9900 100%);
-    filter: blur(250px);
+    filter: blur(150px);
   }
 
   .end-10 {
@@ -53,7 +59,7 @@ body {
   }
 
   .left-10 {
-    left: -20%;
+    left: 0;
   }
 }
 
@@ -81,10 +87,10 @@ body {
   height: 100%;
   clip-path: polygon(0% 0%, 100% 0%, 100% 97%, 90% 100%, 0% 100%, 0% 0%);
 
-  background-image: linear-gradient(
-    180deg,
-    rgba(43, 43, 43, 0.486) 0%,
-    rgba(8, 8, 8, 0.74) 100%
+  background: linear-gradient(
+    to top,
+    rgba(15, 24, 35, 0.4) 0%,
+    rgba(64, 74, 87, 0.48) 32%
   );
 }
 
@@ -153,6 +159,9 @@ body {
     margin-right: 0;
   }
 }
+// .card-title {
+//   font-family: "Blackpast DEMO", sans-serif;
+// }
 .content {
   width: 40%;
 
@@ -183,7 +192,7 @@ body {
   color: #ff7a00;
   font-weight: bold;
   font-size: 40px;
-  text-transform: uppercase;
+
   background: linear-gradient(to right, #ff3d00, #ff9900);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -220,8 +229,13 @@ body {
       padding: 9px 36px;
       color: #fff;
       margin-right: 10px;
+      font-family: "Plus Jakarta Sans", sans-serif;
     }
   }
+}
+.Jakarta,
+.custom-badge {
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 // Dropdown Styles
@@ -265,6 +279,7 @@ body {
   background: none;
   border: none;
   color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .mt-10 {
@@ -326,6 +341,12 @@ footer {
   .w-12 {
     width: 11%;
   }
+
+  .footer-text {
+    background: linear-gradient(to bottom, #ff3d00 0%, #ff9900 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
 
 // Button Styles
@@ -369,6 +390,7 @@ footer {
   }
 }
 .card-heading-text {
+  font-family: "Blackpast DEMO", sans-serif, monospace;
   @media (max-width: 1209px) {
     font-size: 12px;
     margin: 0px;
@@ -436,7 +458,7 @@ footer {
   font-size: 16px;
 
   @media (min-width: 768px) {
-    font-size: 27px;
+    font-size: 40px;
   }
 }
 
@@ -531,4 +553,92 @@ footer {
   z-index: 9999;
   pointer-events: none;
   display: block;
+}
+.para {
+  font-size: 20px;
+}
+
+@media (min-width: 992px) {
+  nav {
+    background-color: transparent;
+    padding: 20px 0 !important;
+  }
+}
+nav .navbar-collapse {
+  flex-grow: unset;
+}
+nav .navbar-nav .nav-link {
+  color: #fff !important;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  transition: all 0.3s ease;
+}
+nav .navbar-nav .nav-link:hover {
+  background: linear-gradient(86deg, #ff3d00 -11.9%, #f90 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+nav .navbar-nav .nav-link .btn {
+  display: inline;
+}
+nav .navbar-nav .dropdown-menu {
+  background-color: #26272f;
+}
+nav .navbar-nav .dropdown-menu a {
+  color: #fff !important;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  transition: all 0.3s ease;
+}
+nav .navbar-nav .dropdown-menu a:hover {
+  background: linear-gradient(86deg, #ff3d00 -11.9%, #f90 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar-toggler {
+  color: rgba(255, 255, 255, 0.55);
+  border-color: white;
+  background: burlywood;
+}
+.navbar-dark .navbar-toggler-icon {
+  background-image: url(../assets/download.svg);
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.lm-butn {
+  display: inline-block;
+  border-radius: 30px;
+  padding: 7px 30px 9px 30px;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #fff;
+  background-color: #26272f;
+  border: 2px solid transparent;
+  background-image: linear-gradient(#26272f, #26272f),
+    linear-gradient(86deg, #ff3d00 -11.9%, #ff9900 100%);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  transition: all 0.4s ease;
+}
+.navbar-items {
+  font-family: "Roboto", sans-serif;
 }
