@@ -19298,6 +19298,11 @@ nav .navbar-nav .dropdown-menu a:hover {
     padding: 150px 0;
   }
 }
+@media (max-width: 768px) {
+  .cta-subcribe {
+    justify-content: center !important;
+  }
+}
 .cta-footer-wrapper .cta__content img {
   width: 30px;
 }
