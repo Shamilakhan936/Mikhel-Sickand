@@ -18695,7 +18695,7 @@ body .top-background {
   background-position: center;
 }
 body .bottom-background {
-  height: 1410px;
+  height: 1500px;
   z-index: -999;
   background-image: url(/assets/background1.png);
   background-size: cover;
@@ -19268,12 +19268,7 @@ nav .navbar-nav .dropdown-menu a:hover {
 }
 
 .cta-footer-wrapper {
-  background: rgba(0, 0, 0, 0.1803921569);
-}
-@media (max-width: 768px) {
-  .cta-footer-wrapper {
-    background: linear-gradient(to bottom, rgba(13, 19, 27, 0.31), rgb(13, 19, 27));
-  }
+  background: linear-gradient(to bottom, rgba(13, 19, 27, 0.31), rgb(13, 19, 27));
 }
 
 @media (min-width: 768px) {
