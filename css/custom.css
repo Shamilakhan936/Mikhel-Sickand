@@ -19268,7 +19268,12 @@ nav .navbar-nav .dropdown-menu a:hover {
 }
 
 .cta-footer-wrapper {
-  background: linear-gradient(to bottom, rgba(13, 19, 27, 0.31), rgb(13, 19, 27));
+  background: rgba(0, 0, 0, 0.1803921569);
+}
+@media (max-width: 768px) {
+  .cta-footer-wrapper {
+    background: linear-gradient(to bottom, rgba(13, 19, 27, 0.31), rgb(13, 19, 27));
+  }
 }
 
 @media (min-width: 768px) {

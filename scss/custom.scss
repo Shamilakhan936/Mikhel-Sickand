@@ -605,11 +605,14 @@ nav .navbar-nav .dropdown-menu a:hover {
 
 // footer
 .cta-footer-wrapper {
-  background: linear-gradient(
-    to bottom,
-    rgba(13, 19, 27, 0.31),
-    rgb(13, 19, 27)
-  );
+  background: #0000002e;
+  @media (max-width: 768px) {
+    background: linear-gradient(
+      to bottom,
+      rgba(13, 19, 27, 0.31),
+      rgb(13, 19, 27)
+    );
+  }
 }
 .cta-subcribe {
   @media (min-width: 768px) {
